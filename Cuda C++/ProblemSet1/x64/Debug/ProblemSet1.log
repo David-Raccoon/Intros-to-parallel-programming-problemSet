@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file ..\ProblemSets\Problem Set 1\student_func.cu...
+  
+  C:\Users\82065\source\repos\Cuda C++\ProblemSet1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\student_func.cu.obj "C:\Users\82065\source\repos\Cuda C++\ProblemSets\Problem Set 1\student_func.cu" 
+  student_func.cu
+  compare.cpp
+  HW1.cpp
+C:\Users\82065\source\repos\Cuda C++\ProblemSets\Problem Set 1\HW1.cpp(67,64): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+  reference_calc.cpp
+C:\Users\82065\source\repos\Cuda C++\ProblemSets\Problem Set 1\reference_calc.cpp(13,33): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+  正在生成代码...
+    正在创建库 C:\Users\82065\source\repos\Cuda C++\x64\Debug\ProblemSet1.lib 和对象 C:\Users\82065\source\repos\Cuda C++\x64\Debug\ProblemSet1.exp
+  ProblemSet1.vcxproj -> C:\Users\82065\source\repos\Cuda C++\x64\Debug\ProblemSet1.exe
